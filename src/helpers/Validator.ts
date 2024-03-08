@@ -1,10 +1,4 @@
 export default class Validator {
-  static genericValidator(value: string): boolean {
-    if (!value) {
-      return false;
-    }
-    return true;
-  }
   static emailValidator(email: string): boolean {
     if (!email) {
       return false;
